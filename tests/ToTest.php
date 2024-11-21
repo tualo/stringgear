@@ -1,6 +1,6 @@
 <?php
 
-use Gears\String\Str;
+use Tualo\StringGear\Str;
 
 class ToTest extends PHPUnit_Framework_TestCase
 {
@@ -114,7 +114,7 @@ class ToTest extends PHPUnit_Framework_TestCase
 
     public function toSingularProvider()
     {
-        // NOTE: These test cases are really just to prove that Gears\String\Str
+        // NOTE: These test cases are really just to prove that Tualo\StringGear\Str
         // is working as it should, a full complement of tests can be found
         // here: https://github.com/ICanBoogie/Inflector/tree/master/tests
         return
@@ -137,7 +137,7 @@ class ToTest extends PHPUnit_Framework_TestCase
 
     public function toPluralProvider()
     {
-        // NOTE: These test cases are really just to prove that Gears\String\Str
+        // NOTE: These test cases are really just to prove that Tualo\StringGear\Str
         // is working as it should, a full complement of tests can be found
         // here: https://github.com/ICanBoogie/Inflector/tree/master/tests
         return

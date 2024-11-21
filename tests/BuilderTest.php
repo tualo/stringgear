@@ -1,7 +1,7 @@
 <?php
 
-use Gears\String\Str;
-use Gears\String\Builder;
+use Tualo\StringGear\Str;
+use Tualo\StringGear\Builder;
 
 class BuilderTest extends PHPUnit_Framework_TestCase
 {

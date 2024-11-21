@@ -3,7 +3,7 @@
 
 require(__DIR__.'/vendor/autoload.php');
 
-use Gears\String\Str;
+use Tualo\StringGear\Str;
 use YaLinqo\Enumerable as Linq;
 use Symfony\Component\Yaml\Yaml;
 use phpDocumentor\Reflection\DocBlockFactory;

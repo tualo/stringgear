@@ -1,5 +1,5 @@
 {
-    "name": "gears/string",
+    "name": "tualo/stringgear",
     "description": "A collection of basic string manipulation functions.",
     "homepage": "https://github.com/phpgearbox/string",
     "keywords": ["string", "manipulation"],
@@ -8,14 +8,14 @@
     {
         "psr-4":
         {
-            "Gears\\String\\": "src"
+            "Tualo\\StringGear\\": "src"
         }
     },
     "require":
     {
-        "php": "^5.4 || ^7.0",
-        "voku/portable-utf8": "^3.0",
-        "icecave/parity": "^1.0"
+        "php": "*",
+        "voku/portable-utf8": "*",
+        "icecave/parity": "*"
     },
     "require-dev":
     {

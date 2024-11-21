@@ -38,7 +38,7 @@ composer require gears/string
 Then import the ```Str``` class into your script:
 
 ```php
-use Gears\String\Str;
+use Tualo\StringGear\Str;
 ```
 
 OO and Chaining
@@ -49,12 +49,12 @@ The library offers OO method chaining, as seen below:
 echo Str::s('fòô     bàř')->removeWhitespace()->swapCase(); // 'FÒÔ BÀŘ'
 ```
 
-`Gears\String\Str` has a `__toString()` method, which returns the current string
+`Tualo\StringGear\Str` has a `__toString()` method, which returns the current string
 when the object is used in a string context, ie: `(string) Str::s('foo')`
 
 Implemented Interfaces
 --------------------------------------------------------------------------------
-`Gears\String\Str` implements the `IteratorAggregate` interface, meaning that
+`Tualo\StringGear\Str` implements the `IteratorAggregate` interface, meaning that
 `foreach` can be used with an instance of the class:
 
 ``` php
@@ -75,7 +75,7 @@ count($str);  // 3
 
 Furthermore, the `ArrayAccess` interface has been implemented. As a result,
 `isset()` can be used to check if a character at a specific index exists. And
-since `Gears\String\Str` is immutable, any call to `offsetSet` or `offsetUnset`
+since `Tualo\StringGear\Str` is immutable, any call to `offsetSet` or `offsetUnset`
 will throw an exception. `offsetGet` has been implemented, however, and accepts
 both positive and negative indexes. Invalid indexes result in an
 `OutOfBoundsException`.

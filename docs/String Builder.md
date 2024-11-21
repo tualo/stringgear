@@ -5,7 +5,7 @@ is inspired by .NET's [StringBuilder](https://goo.gl/utVtKG) class.
 Classic example, lets say you wanted to build some HTML.
 
 ```php
-use Gears\String\Builder;
+use Tualo\StringGear\Builder;
 
 $html = new Builder();
 
@@ -36,4 +36,4 @@ However this is not a performance thing for me, personally I just like the
 API that the C# StringBuilder class provides. Coming back to PHP development
 after a lengthy .NET project, it was one of many things I missed.
 
-Also the main `Gears\String\Str` class is immutable anyway.
+Also the main `Tualo\StringGear\Str` class is immutable anyway.

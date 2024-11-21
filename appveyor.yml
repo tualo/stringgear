@@ -1,4 +1,4 @@
-clone_folder: c:\projects\gears\string
+clone_folder: c:\projects\Tualo\StringGear
 
 init:
   - SET PATH=c:\tools\php;%PATH%
@@ -21,11 +21,11 @@ install:
   - php composer-setup.php
   
 build_script:
-  - cd c:\projects\gears\string
+  - cd c:\projects\Tualo\StringGear
   - composer install
 
 test_script:
-  - cd c:\projects\gears\string
+  - cd c:\projects\Tualo\StringGear
   - vendor\bin\robo test
 
 deploy: off

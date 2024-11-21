@@ -1,4 +1,4 @@
-<?php namespace Gears\String\Methods;
+<?php namespace Tualo\StringGear\Methods;
 ////////////////////////////////////////////////////////////////////////////////
 // __________ __             ________                   __________
 // \______   \  |__ ______  /  _____/  ____ _____ ______\______   \ _______  ___
@@ -12,7 +12,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 use voku\helper\UTF8;
-use Gears\String\Exceptions\PcreException;
+use Tualo\StringGear\Exceptions\PcreException;
 
 trait Regx
 {

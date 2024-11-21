@@ -1,4 +1,4 @@
-<?php namespace Gears\String;
+<?php namespace Tualo\StringGear;
 ////////////////////////////////////////////////////////////////////////////////
 // __________ __             ________                   __________
 // \______   \  |__ ______  /  _____/  ____ _____ ______\______   \ _______  ___
@@ -14,7 +14,7 @@
 use voku\helper\UTF8;
 use Icecave\Parity\Parity;
 use Icecave\Parity\SubClassComparableInterface as Comparable;
-use Gears\String\Exceptions\MisMatchedEncodingException;
+use Tualo\StringGear\Exceptions\MisMatchedEncodingException;
 
 /**
  * String Builder Class.
@@ -31,23 +31,23 @@ use Gears\String\Exceptions\MisMatchedEncodingException;
  * API that the C# StringBuilder class provides. Coming back to PHP development
  * after a lengthy .NET project, it was one of many things I missed.
  *
- * Also the main Gears\String\Str class is immutable anyway.
+ * Also the main Tualo\StringGear\Str class is immutable anyway.
  *
- * @package Gears\String
+ * @package Tualo\StringGear
  */
 class Builder implements Comparable
 {
     /**
      * The string that this builder is building.
      *
-     * @var \Gears\String\Str
+     * @var \Tualo\StringGear\Str
      */
     protected $str;
 
     /**
      * After building your string, you may retreive the underlying Str object.
      *
-     * @return \Gears\String\Str
+     * @return \Tualo\StringGear\Str
      */
     public function getStr()
     {

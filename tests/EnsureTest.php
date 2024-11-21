@@ -1,6 +1,6 @@
 <?php
 
-use Gears\String\Str;
+use Tualo\StringGear\Str;
 
 class EnsureTest extends PHPUnit_Framework_TestCase
 {

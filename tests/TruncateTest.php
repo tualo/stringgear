@@ -1,6 +1,6 @@
 <?php
 
-use Gears\String\Str;
+use Tualo\StringGear\Str;
 
 class TruncateTest extends PHPUnit_Framework_TestCase
 {

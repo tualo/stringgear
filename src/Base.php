@@ -1,4 +1,4 @@
-<?php namespace Gears\String;
+<?php namespace Tualo\StringGear;
 ////////////////////////////////////////////////////////////////////////////////
 // __________ __             ________                   __________
 // \______   \  |__ ______  /  _____/  ____ _____ ______\______   \ _______  ___
@@ -21,7 +21,7 @@ use Icecave\Parity\SubClassComparableInterface as Comparable;
  * This class provides all the basic functionality to make the Str object
  * behave almost like a normal scalar string. Such as array access and length.
  *
- * @package Gears\String
+ * @package Tualo\StringGear
  */
 class Base implements \Countable, \ArrayAccess, \IteratorAggregate, Comparable
 {
@@ -142,7 +142,7 @@ class Base implements \Countable, \ArrayAccess, \IteratorAggregate, Comparable
     }
 
     /**
-     * Factory method to create a new Gears\String\Str object.
+     * Factory method to create a new Tualo\StringGear\Str object.
      *
      * @param mixed       $string        Must be a scalar string or an object
      *                                   that implements the __toString() method

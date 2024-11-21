@@ -1,4 +1,4 @@
-<?php namespace Gears\String;
+<?php namespace Tualo\StringGear;
 ////////////////////////////////////////////////////////////////////////////////
 // __________ __             ________                   __________
 // \______   \  |__ ______  /  _____/  ____ _____ ______\______   \ _______  ___
@@ -23,7 +23,7 @@
  *
  * Naturally I have added some of my own methods and made other modifications...
  *
- * @package Gears\String
+ * @package Tualo\StringGear
  */
 class Str extends Base
 {
